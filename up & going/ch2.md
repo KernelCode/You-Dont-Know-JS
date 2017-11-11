@@ -222,7 +222,7 @@ In Chapter 1, we briefly mentioned the "truthy" and "falsy" nature of values: wh
 The specific list of "falsy" values in JavaScript is as follows:
 
 * `""` (empty string)
-* `0`, `-0`, `NaN` (invalid `number`)
+* `0`, `-0`, `"0"`, `"-0"`, `NaN` (invalid `number`)
 * `null`, `undefined`
 * `false`
 
